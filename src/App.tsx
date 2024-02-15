@@ -3,7 +3,6 @@ import darkIcon  from './assets/images/icon-sun.svg';
 import lightIcon from './assets/images/icon-moon.svg'
 import crossIcon from './assets/images/icon-cross.svg';
 import checkIcon from './assets/images/icon-check.svg';
-import './DragDropTouch.js';    // External Polyfill for drag&drop for mobile browsers
 
 function App() {
   const [count, setCount] = useState(0);

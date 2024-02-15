@@ -11,6 +11,7 @@ node_modules
 design
 dist-ssr
 *.local
+todo-app-main
 
 # Editor directories and files
 .vscode/*
