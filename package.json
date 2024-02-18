@@ -2,7 +2,7 @@
   "name": "todo-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://gnunez0101.github.io/todo-app/",
+  "homepage": ".",
   "type": "module",
   "scripts": {
     "predeploy" : "npm run build",
