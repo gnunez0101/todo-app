@@ -121,6 +121,7 @@ function App() {
   const windowSize = useRef(0);
 
   useEffect(() => {
+    setDarkMode(localStorage.getItem("dark-mode") === "enabled");  // Check and set dark mode
     const handleResize = () => { windowSize.current = window.innerWidth }
     windowSize.current = window.innerWidth;
     window.addEventListener('resize', handleResize)
@@ -128,8 +129,14 @@ function App() {
   }, [])
 
   useEffect(() => {
-    if (darkMode) setModeIcon(darkIcon);
-    else setModeIcon(lightIcon);
+    if (darkMode) {
+      setModeIcon(darkIcon);
+      localStorage.setItem("dark-mode", "enabled");
+    }
+    else {
+      setModeIcon(lightIcon);
+      localStorage.setItem("dark-mode", "disabled");
+    }
   }, [darkMode]);
 
   useEffect(() => {
