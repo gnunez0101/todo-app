@@ -42,8 +42,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/gnunez0101/todo-app)
-- Live Site URL: [Add live site URL here](https://gnunez0101.github.io/todo-app/)
+- Solution URL: [Click here for Solution URl](https://github.com/gnunez0101/todo-app)
+- Live Site URL: [Click here for Live Solution URL](https://gnunez0101.github.io/todo-app/)
 
 ## My process
 
